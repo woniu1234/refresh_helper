@@ -1,0 +1,6 @@
+jdk:
+  - openjdk11
+
+install:
+  - ./gradlew :refreshviewLib:build :refreshviewLib:publishToMavenLocal
+  - find . -name "*.aar"
